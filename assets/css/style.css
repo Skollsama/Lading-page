@@ -1,0 +1,61 @@
+
+.header {
+    background-image: url(../images/xboxfondo.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px;
+    
+}
+
+.header__encabezado {
+    font-size: 80px;
+    color: #ffffff;
+    text-align: right;
+}
+
+.header__eslogan {
+    font-size: 40px;
+    color: #ffffff;
+    text-align: right;
+}
+
+.contenedor-imagenes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .imagen {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    margin-left: 480px;
+    margin-top: 80px;
+  }
+  
+  .imagen img {
+    width: 500px;
+    height: auto; 
+    margin-right: 160px;
+  }
+  
+  .informacion {
+    font-size: 24px;
+    color: #000000;
+    margin-right: 100px;
+  }
+
+.footer {
+    background-color: black;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .texto-footer {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  
